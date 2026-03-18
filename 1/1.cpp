@@ -1,16 +1,14 @@
-#include <iostream>
-
-using namespace std;
+#include <stdio.h>
 
 int main() {
 #ifdef _OPENMP
-    cout << "OpenMP работает" << endl;
+    printf("openmp working\n");
     
     int year = _OPENMP / 100;
     int month = _OPENMP % 100;
     
-    cout << "версия стандарта OpenMP принята: год " << year << ", месяц " << month << endl;
+    printf("year %d, month %d\n", year, month);
 #else 
-    cout << "OpenMP не поддерживается" << endl;
+    printf("openmp is not supported\n");
 #endif
 }

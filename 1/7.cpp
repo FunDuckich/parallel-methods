@@ -1,25 +1,18 @@
-#include <iostream>
 #include <stdio.h>
 #include <omp.h>
 
-using namespace std;
-
 int main() {
-    int dyn_default = omp_get_dynamic();
-    cout << dyn_default << endl;
+    printf("default OMP_DYNAMIC value: %d\n", omp_get_dynamic());
 
     omp_set_dynamic(1);
     
-    int dyn_new = omp_get_dynamic();
-    cout << dyn_new << endl;
+    printf("new OMP_DYNAMIC value: %d\n", omp_get_dynamic());
 
     #pragma omp parallel
     {
         #pragma omp master
         {
-            int total_threads = omp_get_num_threads();
-            printf("Выполняет секцию MASTER (поток 0). Фактическое число потоков: %d\n", total_threads);
+            printf("executing MASTER section (thread 0). actual number of threads: %d\n", omp_get_num_threads());
         }
-        
     }
 }
