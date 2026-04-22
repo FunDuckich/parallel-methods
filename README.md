@@ -31,7 +31,7 @@
 4. Запусти созданный `.exe` файл.
 
 Если `mpiexec` не находится в текущем терминале, открой новый PowerShell или используй полный путь:
-`"C:\Program Files\Microsoft MPI\Bin\mpiexec.exe"`.
+`& "C:\Program Files\Microsoft MPI\Bin\mpiexec.exe"`.
 
 ### Примеры для твоих папок:
 
@@ -56,19 +56,19 @@ g++ -fopenmp 3/7.cpp -o 3/7.exe
 #### Лаба 6, Задание 1
 ```bash
 mpic++ 6/1.cpp -o 6/1.exe
-mpiexec -n 4 .\6\1.exe
+& "C:\Program Files\Microsoft MPI\Bin\mpiexec.exe" -n 4 .\6\1.exe
 ```
 
 #### Лаба 6, Задание 3
 ```bash
 mpic++ 6/3.cpp -o 6/3.exe
-mpiexec -n 2 .\6\3.exe
+& "C:\Program Files\Microsoft MPI\Bin\mpiexec.exe" -n 2 .\6\3.exe
 ```
 
 #### Лаба 6, Задание 6
 ```bash
 mpic++ 6/6.cpp -o 6/6.exe
-mpiexec -n 2 .\6\6.exe
+& "C:\Program Files\Microsoft MPI\Bin\mpiexec.exe" -n 2 .\6\6.exe
 ```
 
 ---
