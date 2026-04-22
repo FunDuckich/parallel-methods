@@ -89,4 +89,22 @@ mpic++ 7/6.cpp -o 7/6.exe
 & "C:\Program Files\Microsoft MPI\Bin\mpiexec.exe" -n 4 .\7\6.exe
 ```
 
+#### Лаба 8, Задание 1
+```bash
+mpic++ 8/1.cpp -o 8/1.exe
+& "C:\Program Files\Microsoft MPI\Bin\mpiexec.exe" -n 4 .\8\1.exe
+```
+
+#### Лаба 8, Задание 3
+```bash
+mpic++ 8/3.cpp -o 8/3.exe
+& "C:\Program Files\Microsoft MPI\Bin\mpiexec.exe" -n 4 .\8\3.exe
+```
+
+#### Лаба 8, Задание 7
+```bash
+mpic++ 8/7.cpp -o 8/7.exe
+& "C:\Program Files\Microsoft MPI\Bin\mpiexec.exe" -n 2 .\8\7.exe
+```
+
 ---
