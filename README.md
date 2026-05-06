@@ -63,6 +63,12 @@ g++ -fopenmp 5/2.cpp -o 5/2.exe
 .\5\2.exe
 ```
 
+#### Лаба 5, Задание 2 MPI
+```bash
+mpic++ 5/2_mpi.cpp -o 5/2_mpi.exe
+& "C:\Program Files\Microsoft MPI\Bin\mpiexec.exe" -n 4 .\5\2_mpi.exe
+```
+
 #### Лаба 6, Задание 1
 ```bash
 mpic++ 6/1.cpp -o 6/1.exe
