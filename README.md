@@ -4,8 +4,7 @@
 Этот гайд поможет тебе быстро скомпилировать и запустить программы из любой папки проекта. 
 
 ## 📌 Материалы
-* [Документ с пояснениями](https://docs.google.com/document/d/1C2ym506OzD5PMAjUmme4GmFqAfIlZO3uIg2qta0SvwQ/edit?usp=sharing)
-* [Файл с заданиями](https://drive.google.com/file/d/1WlRkDEDfhauZDRxqlIwwQkOUsAaAgmeR/view?usp=sharing)
+https://docs.google.com/document/d/1dXJbDDOhgSq9ByMoqxmMffPqsyyxXhGHbsLufmHIRzs/edit?usp=sharing
 
 ## 🛠 Что нужно для запуска
 1. **Компилятор C++ (GCC/MinGW)** — должен быть установлен в системе.
